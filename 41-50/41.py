@@ -1,5 +1,6 @@
 # 問題:JOI 2013 予選 4 - 暑い日々
-# URL:https://atcoder.jp/contests/joi2013yo/tasks/joi2013yo_d
+# 問題URL:https://atcoder.jp/contests/joi2013yo/tasks/joi2013yo_d
+# 解法URL:https://atcoder.jp/contests/joi2013yo/submissions/30775672
 
 D, N = map(int, input().split())
 temperature = []

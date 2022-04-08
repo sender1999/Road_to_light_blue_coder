@@ -1,5 +1,6 @@
 # 問題:JOI 2011 予選 4 - 1 年生
-# URL:https://atcoder.jp/contests/joi2011yo/tasks/joi2011yo_d
+# 問題URL:https://atcoder.jp/contests/joi2011yo/tasks/joi2011yo_d
+# 解法URL:https://atcoder.jp/contests/joi2011yo/submissions/30753238
 
 n = int(input())
 suuretu = list(map(int, input().split()))

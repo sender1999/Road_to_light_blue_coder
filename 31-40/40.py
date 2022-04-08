@@ -1,5 +1,6 @@
 # 問題:JOI 2012 予選 4 - パスタ
-# URL:https://atcoder.jp/contests/joi2012yo/tasks/joi2012yo_d
+# 問題URL:https://atcoder.jp/contests/joi2012yo/tasks/joi2012yo_d
+# 解法URL:https://atcoder.jp/contests/joi2012yo/submissions/30768979
 
 n, k = map(int, input().split())
 shitei = []
