@@ -5,6 +5,9 @@
 # 計算量がN(MN+K)なのはあってるけど、入力がinput()だとTLEする
 # sys.stdin.readline()とか使わないと間に合わない多分
 
+import sys
+input = sys.stdin.readline
+
 M, N = map(int, input().split())
 K = int(input())
 
@@ -12,8 +15,12 @@ jan = []
 oce = []
 ice = []
 
+hoge = []
 for i in range(M):
-    tmp = input()
+    hoge.append(input())
+
+for i in range(M):
+    tmp = hoge[i]
     tmp_j = [0]
     tmp_o = [0]
     tmp_i = [0]
@@ -35,8 +42,12 @@ for i in range(M):
     oce.append(tmp_o)
     ice.append(tmp_i)
 
+hoge = []
 for i in range(K):
-    y_s, x_s, y_e, x_e = map(int, input().split())
+    hoge.append(list(map(int, input().split())))
+
+for i in range(K):
+    y_s, x_s, y_e, x_e = hoge[i]
     ans_j = 0
     ans_o = 0
     ans_i = 0
